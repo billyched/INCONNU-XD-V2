@@ -3,8 +3,8 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
-  PREFIX: process.env.PREFIX || '.',
+  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~pEQTULTR#0X5kf56jxhfJnraXmhxDwiP3lDb23XJ1wOTZQIIjjuY",
+  PREFIX: process.env.PREFIX || '!',
    BOT_NAME: process.env.BOT_NAME || "INCONNU XD V2",
    BOT: process.env.BOT || "hello 👋",
   NEW_CMD: process.env.NEW_CMD || "ᴀᴅᴅᴠᴀʀ\n│ sᴜᴅᴏ\n| inconnu",
@@ -37,11 +37,11 @@ const config = {
   LYDEA: process.env.LYDEA !== undefined ? process.env.LYDEA === 'true' : false,
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false, 
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
-  MODE: process.env.MODE || "public",
+  MODE: process.env.MODE || "private",
   DELETED_MESSAGES_CHAT_ID: process.env.DELETED_MESSAGES_CHAT_ID || "554488138425@s.whatsapp.net",
-  OWNER_NAME: process.env.OWNER_NAME || "INCONNU BOY",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "554488138425",
-  SUDO_NUMBER: process.env.SUDO_NUMBER || "554488138425",
+  OWNER_NAME: process.env.OWNER_NAME || "THE NUDE BOY",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "50932920314",
+  SUDO_NUMBER: process.env.SUDO_NUMBER || "50932920314",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
